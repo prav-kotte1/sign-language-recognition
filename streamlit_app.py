@@ -5,7 +5,7 @@ import cv2
 import tempfile
 
 # Load model
-model = tf.keras.models.load_model("sign_model.keras")
+model = tf.keras.models.load_model("model.keras")
 
 # Load labels
 with open("labels.txt", "r") as f:
